@@ -5,3 +5,7 @@ GET {{HelloWorldApi_HostAddress}}/api/HelloWorld
 Accept: application/json
 
 ###
+
+GET {{HelloWorldApi_HostAddress}}/api/Greeting
+
+Accept: application/json

@@ -17,7 +17,7 @@ if (app.Environment.IsDevelopment())
     app.MapScalarApiReference(options =>
     {
         options
-            .WithTitle("Hello World API")
+            .WithTitle("Hallo Verden API")
             .WithDefaultHttpClient(ScalarTarget.CSharp, ScalarClient.HttpClient)
             .WithTheme(ScalarTheme.DeepSpace);
     });
